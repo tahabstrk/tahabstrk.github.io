@@ -1,2 +1,0 @@
-# tahabstrk.github.io
-kişisel
