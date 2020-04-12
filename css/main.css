@@ -6,7 +6,7 @@
 }
 
 body{
-   background:  #fff;
+   background:  #000;
     color: #3f3f3f;
     font: 14px / 28px;
     font-family: 'Raleway', arial;
@@ -60,7 +60,7 @@ h3{
 }
 
 .engineBody .container{
-    justify-content: space-between;
+    justify-content:flex-end;
 } 
 
 .col2{
@@ -89,7 +89,7 @@ header .logo img{
     display: block;
     text-decoration: none;
     letter-spacing: 2px;
-    color: #333;
+    color: #002fa7;
     transition: all .5s ease;
 }
 
@@ -227,12 +227,12 @@ header .logo img{
 }
 
 footer{
-    background: #500D16;
+    background: #808080;
     text-align: center;
 }
 
 .footerItem{
-    padding: 20px;
+    padding:inherit;
 }
 
 .footerItem img{
@@ -244,7 +244,7 @@ footer h3{
     color: #fff;
     font-size: 18px;
     letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 footer .fa{
@@ -260,7 +260,7 @@ footer .fa:hover{
 
 footer p{
     color: #95a5a6;
-    line-height: 20px;
+    line-height: 1px;
 }
 
 footerLinks a{
@@ -281,5 +281,124 @@ footerLinks a:hover{
     height: 50px;
 }
 
+.btnN{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #500D16;
+    text-decoration: none;
+}
 
 
+
+/*OYUN*/
+   
+
+#mainSlider2{
+    height: 200px;
+    background: url(../img/oyunana.jpg) center center no-repeat;
+    background-size: cover;
+}
+    
+.slider2{
+    width: 100%;
+}
+
+#mainCaption2{
+    height: 200px;
+    background: rgba(0,0,0,  .5);
+}   
+    
+.caption2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}   
+    
+.featuresBody2 .container2{
+    justify-content: space-around;
+}
+
+/*OYUN eleştirisi*/
+
+#mainSlider3{
+    height: 200px;
+    background: url(../img/OYUNEL.jpg) center center no-repeat;
+    background-size: cover;
+}
+    
+.slider3{
+    width: 100%;
+}
+
+#mainCaption3{
+    height: 200px;
+    background: rgba(0,0,0,  .5);
+}   
+    
+.caption3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}   
+    
+.featuresBody2 .container2{
+    justify-content: space-around;
+}
+
+/*oyun elfoto*/
+
+#mainSlider4{
+    height: 800px;
+    background: url(../img/yak%C4%B1nda.png) center center no-repeat;
+    background-size: cover;
+}
+    
+.slider4{
+    width: 100%;
+}
+.caption4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}   
+    
+.featuresBody2 .container4{
+    justify-content: space-around;
+}
+
+
+
+/*OYUN YARDIMI*/
+
+#mainSlider5{
+    height: 200px;
+    background: url(../img/YARDIM.jpg) center center no-repeat;
+    background-size: cover;
+}
+    
+.slider5{
+    width: 100%;
+}
+
+#mainCaption5{
+    height: 200px;
+    background: rgba(0,0,0,  .5);
+}   
+    
+.caption5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}   
