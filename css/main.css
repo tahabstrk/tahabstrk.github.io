@@ -224,6 +224,7 @@ header .logo img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
 }
 
 footer{
@@ -306,6 +307,13 @@ footerLinks a:hover{
     padding: 5px 40px;
     letter-spacing: 2px;
     margin-bottom: 20px;
+}
+
+.btnNtanıtım{
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 /*OYUN*/
@@ -421,35 +429,72 @@ footerLinks a:hover{
     color: #fff;
 }   
 
-/*media queries*/
+/*warband*/
 
-@media screen and (max-width: 960px){
-    .caption h1{
-        font-size: 35px;
-    }
-    
-    footer .footerItem h3{
-       font-size: 14px; 
-    }
-    
-    .sectionHeader{
-    background: #500D16;
-    border-bottom:6px solid #000;
-    height: 40px;
-    width: 290px;
-    color: #fff;
-    display: inline-block;
-    line-height: 40px;
-    font-size: 18px;
-    padding: 5px 40px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    }
-    
-    #mainSlider4{
-        height: 400px;
-    }
+#parallax2{
+   background: linear-gradient(
+                rgba(0,0,0,  .7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/big.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
+
+#parallax p2{
+    color: #fff;
+}
+
+.sınıf1{
+    width: 1030px;
+    height: auto;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.sınıf2{
+    width: 1030px;
+    height: auto;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+#parallax3{
+   background: linear-gradient(
+                rgba(0,0,0,  .7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/araresim.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 200px;
+}
+
+
+.sınıf3{
+    width: 1030px;
+    height: auto;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.sectionArea2{
+    padding: 25px 0;
+}
+
+
+
+/*media eqoendır*/
 
 @media screen and (max-width: 720px){
         .caption h1{
@@ -510,6 +555,7 @@ footerLinks a:hover{
    
     .caption h1{
         font-size: 35px;
+        color: red;
     } 
     
      .menu li a{
