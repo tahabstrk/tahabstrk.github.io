@@ -570,21 +570,31 @@ footerLinks a:hover{
     padding: 25px 0;
 }
 
+/*tower*/
 
+#parallax5{
+   background: linear-gradient(
+                rgba(0,0,0,  .7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/towerbig.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 150px;
+}
 
+.h2baslik{
+    color: white;
+    font-size: 35px;
+    margin: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.h2baslik:hover{
+    color: black;
+    text-decoration: none;
+}
 
 /*media eqoendır*/
 
